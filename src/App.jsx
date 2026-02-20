@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import CategoryPage from "./components/CategoryPage";
-import "./styles.css";
+import "./Styles.css";
 
 export default function App() {
   return (
