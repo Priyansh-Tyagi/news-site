@@ -2,9 +2,9 @@ export default function NewsCard({ article }) {
   return (
     <div className="card">
       <img
-        src={article.urlToImage || "https://via.placeholder.com/300"}
-        alt=""
-      />
+  src={article.image_url || "https://via.placeholder.com/300"}
+  alt={article.title || "News image"}
+/>
 
       <div className="card-body">
         <h3>{article.title}</h3>
