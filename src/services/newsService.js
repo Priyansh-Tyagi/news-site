@@ -1,4 +1,4 @@
-const API_KEY = "c7102b3a4e6c4e948dc6423556b39272";
+const API_KEY = "pub_7e9afab256f54419b9d78e91a3bdc6b0";
 const BASE_URL = "https://newsapi.org/v2/top-headlines";
 
 export const fetchNewsByCategory = async (category = "") => {
